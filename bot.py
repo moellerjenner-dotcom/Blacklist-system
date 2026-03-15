@@ -7,10 +7,10 @@ from flask import Flask
 from threading import Thread
 
 # Configuration from environment variables (Render will set these)
-TOKEN = os.getenv('DISCORD_TOKEN')  # Render will set this
-BIN_ID = os.getenv('BIN_ID')        # Render will set this
-API_KEY = os.getenv('API_KEY')      # Render will set this
-JSONBIN_URL = f'https://api.jsonbin.io/v3/b/{BIN_ID}'
+TOKEN = os.getenv('MTQ4MjU1OTA0MjE3NzIwNDMwNA.GnfQ08.nUv0Dz_OrQguZNCtr4GifAZL_LXkjP3V5TzI2M')  # Render will set this
+BIN_ID = os.getenv('69b61733c3097a1dd5271c0b')        # Render will set this
+API_KEY = os.getenv('$2a$10$cIzufEulpNYuqlwxpHBtAOgkJIrHFNY32AmutbCMCue/VBwG1NJxW')      # Render will set this
+JSONBIN_URL = f'https://api.jsonbin.io/v3/b/{69b61733c3097a1dd5271c0b}'
 
 # Create a simple web server to keep Render happy
 app = Flask('')
